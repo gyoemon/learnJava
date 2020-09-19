@@ -69,7 +69,7 @@ public class RestUserServlet extends HttpServlet {
 	// private method
 	// ---------------------------------------------------------
 
-	/** get */
+	/** select */
 	@Override
 	protected void doGet(HttpServletRequest httpReq, HttpServletResponse httpRes) {
 
@@ -94,7 +94,7 @@ public class RestUserServlet extends HttpServlet {
 		}
 	}
 
-	/** post */
+	/** insert */
 	@Override
 	protected void doPost(HttpServletRequest httpReq, HttpServletResponse httpRes) {
 		// resposne ----
@@ -111,7 +111,7 @@ public class RestUserServlet extends HttpServlet {
 		}
 	}
 
-	/** */
+	/** update */
 	@Override
 	protected void doPut(HttpServletRequest httpReq, HttpServletResponse httpRes) {
 
@@ -130,7 +130,7 @@ public class RestUserServlet extends HttpServlet {
 
 	}
 
-	/**  */
+	/** delete */
 	@Override
 	protected void doDelete(HttpServletRequest httpReq, HttpServletResponse httpRes) {
 		// resposne ----
